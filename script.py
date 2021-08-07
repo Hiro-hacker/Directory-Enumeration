@@ -1,7 +1,7 @@
 import requests 
 import sys 
 
-sub_list = open("wordlist.txt").read() 
+sub_list = open("wordlist.txt2").read() 
 directories = sub_list.splitlines()
 
 for dir in directories:
